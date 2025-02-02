@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { FadeLoader } from 'react-spinners';
 import './App.css';
 
-const port = process.env.SERVER_PORT || 3001;
-const api_server = `http://localhost:${port}`
+const api_server = `http://localhost:3001`
 
 function TravelPlanner() {
   const [city, setCity] = useState('');

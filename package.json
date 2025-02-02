@@ -1,0 +1,9 @@
+{
+    "name": "trip-planner",
+    "version": "1.0.0",
+    "scripts": {
+      "start-frontend": "cd frontend && npm start",
+      "start-backend": "node server/server.js",
+      "install-scripts": "cd frontend && npm install && cd ../server && npm install"
+    }
+  }

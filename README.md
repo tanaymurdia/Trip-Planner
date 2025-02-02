@@ -47,15 +47,15 @@ This Trip Planner is a travel planning application that generates a day-by-day i
 
    The server will be running on the default port 3001 or the port specified in your environment variables.
 
-5. **Navigate to the UI Directory**
+5. **Navigate to the frontend Directory**
 
    Open another terminal or command prompt:
 
    ```bash
-   cd ui
+   cd frontend
    ```
 
-6. **Install UI Dependencies**
+6. **Install frontend Dependencies**
 
    Install the necessary React packages:
 
@@ -63,15 +63,15 @@ This Trip Planner is a travel planning application that generates a day-by-day i
    npm install
    ```
 
-7. **Start the UI**
+7. **Start the frontend**
 
-   Launch the UI:
+   Launch the frontend:
 
    ```bash
    npm start
    ```
 
-   The UI will run on the default port, typically 3000.
+   The frontend will run on the default port, typically 3000.
 
 ## Design Decisions
 

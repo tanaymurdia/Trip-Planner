@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Trip Planner is a travel planning application that generates a day-by-day itinerary for a specified destination using OpenAI's GPT model. It consists of a Node.js/Express backend and a React frontend.
+This Trip Planner is a travel planning application that generates a day-by-day itinerary for a specified destination using OpenAI's GPT model. It consists of a Node.js + Langchain + OpenAI backend and a React frontend.
 
 ## How to Run the Program
 

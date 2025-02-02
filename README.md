@@ -55,7 +55,7 @@ This Trip Planner is a travel planning application that generates a day-by-day i
 
 ## Design Decisions
 
-### Backend (Node.js/Express)
+### Backend (Node.js, Langchain, OpenAI)
 
 - **Langchain Integration**: Utilizes Langchain for efficient prompt templating and management, facilitating structured interaction with the OpenAI model.
 - **OpenAI Model**: Leverages OpenAI's GPT model to generate travel itineraries based on destination, number of days, and start date.

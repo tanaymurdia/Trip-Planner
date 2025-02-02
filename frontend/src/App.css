@@ -1,0 +1,118 @@
+body {
+  font-family: system-ui;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrollbar during animation */
+}
+
+.App {
+  width: 100vw;
+  /* max-width: 1000px; */
+  display: flex
+;
+  justify-content: center;
+  align-items: flex-start;
+  transition: justify-content 0.5s ease;
+  background: white;
+}
+
+.show-itinerary {
+  justify-content: flex-start; /* Shift everything to the left */
+}
+
+.form-container {
+  width: 300px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  transition: margin 0.5s ease;
+}
+
+.show-itinerary .form-container {
+  margin: 40px; 
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #36d7b7;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5e5656;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.button-or-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.itinerary-container {
+  flex: 1;
+  text-align: left;
+  opacity: 0;
+  overflow-y: scroll;
+  height: 100vh;
+  transition: opacity 0.5s ease;
+}
+
+.show-itinerary .itinerary-container {
+  padding-top: 40px;
+  opacity: 1;
+  padding-right: 30px;
+}
+
+.day {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 4px;
+  border: 2px solid #fafafa;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0 0 8px 0;
+  color: #36d7b7;
+}
+
+h1 {
+  color: #36d7b7;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}

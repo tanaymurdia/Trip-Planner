@@ -21,57 +21,37 @@ This Trip Planner is a travel planning application that generates a day-by-day i
    OPENAI_API_KEY=your_openai_api_key_here
    ```
 
-2. **Navigate to the Server Directory**
+2. **Install Dependencies**
 
-   Open a terminal or command prompt:
-
-   ```bash
-   cd server
-   ```
-
-3. **Install Server Dependencies**
-
-   Install the necessary Node.js packages:
+   Install all necessary Node.js and React packages for both server and frontend:
 
    ```bash
-   npm install
+   npm run install-scripts
    ```
 
-4. **Start the Server**
+3. **Start the Application**
 
-   Launch the server:
+   There are two separate commands to start both parts of the application:
 
-   ```bash
-   node server.js
-   ```
+   - **Start the Backend:**
 
-   The server will be running on the default port 3001 or the port specified in your environment variables.
+     Open a terminal or command prompt and run:
 
-5. **Navigate to the frontend Directory**
+     ```bash
+     npm run start-backend
+     ```
 
-   Open another terminal or command prompt:
+     The server will be running on the default port 3001 or the port specified in your environment variables.
 
-   ```bash
-   cd frontend
-   ```
+   - **Start the Frontend:**
 
-6. **Install frontend Dependencies**
+     In another terminal or command prompt, run:
 
-   Install the necessary React packages:
+     ```bash
+     npm run start-frontend
+     ```
 
-   ```bash
-   npm install
-   ```
-
-7. **Start the frontend**
-
-   Launch the frontend:
-
-   ```bash
-   npm start
-   ```
-
-   The frontend will run on the default port, typically 3000.
+     The frontend will run on the default port, typically 3000.
 
 ## Design Decisions
 
